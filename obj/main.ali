@@ -1,0 +1,104 @@
+V "GNAT Lib v13"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		a150c6c7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W complex_numbers%s	complex_numbers.adb	complex_numbers.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-assert.ads		20240521074737 ba465f5c ada.assertions%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-numeri.ads		20240521074738 84bea7a3 ada.numerics%s
+D a-nubinu.ads		20240521074738 93f1f3d1 ada.numerics.big_numbers%s
+D a-nbnbig.ads		20240521074738 711e0174 ada.numerics.big_numbers.big_integers_ghost%s
+D a-nudira.ads		20240521074738 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20240521074738 0bfd6ec4 ada.numerics.discrete_random%b
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D complex_numbers.ads	20260409160236 1fc4f91a complex_numbers%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D main.adb		20260409155050 e710e02e main%b
+D system.ads		20240521074738 426dafb8 system%s
+D s-assert.ads		20240521074738 9c4520c7 system.assertions%s
+D s-casuti.ads		20240521074738 cf13d755 system.case_util%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-imageu.ads		20240521074738 631c6ed0 system.image_u%s
+D s-imguns.ads		20240521074738 7867236f system.img_uns%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-rannum.ads		20240521074738 95815eca system.random_numbers%s
+D s-rannum.adb		20240521074738 0f2dcb9a system.random_numbers%b
+D s-ransee.ads		20240521074738 01a57b33 system.random_seed%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-valuns.ads		20240521074738 e8a1f424 system.val_uns%s
+D s-valuti.ads		20240521074738 fcd603d8 system.val_util%s
+D s-valueu.ads		20240521074738 18770347 system.value_u%s
+D s-vauspe.ads		20240521074738 a67b2f28 system.value_u_spec%s
+D s-widuns.ads		20240521074738 866a5800 system.wid_uns%s
+D s-widthu.ads		20240521074738 b32f15e2 system.width_u%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r c none [main standard 4 11 none] [add complex_numbers 10 14 none]
+G r c none [main standard 4 11 none] [subtract complex_numbers 11 14 none]
+G r c none [main standard 4 11 none] [multiply complex_numbers 12 14 none]
+G r c none [main standard 4 11 none] [divide complex_numbers 13 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 6r24
+X 4 a-numeri.ads
+16K13*Numerics 35e17 16|1r10 6r28
+X 7 a-nudira.ads
+44k22*Discrete_Random 81e33 16|1w19 6r37
+50R9 Generator<24|65R9> 16|8r15[6]
+52V13 Random{integer} 16|14s24[6] 14s51[6] 15s24[6] 15s51[6]
+61U14 Reset<24|103p14> 16|12s9[6]
+X 8 a-nudira.adb
+53V16 Random[24|86]{integer} 25|402b13[16|6]
+65V16 Random[24|86]{integer} 25|402b13[16|6]
+X 14 complex_numbers.ads
+1K9*Complex_Numbers 15e20 16|2w6 9r10 10r10 17r4 18r4 19r4 20r4
+3R9*Complex 6e14 16|9r26 10r26
+4i7*Real{integer} 16|14m11 15m11
+5i7*Imag{integer} 16|14m38 15m38
+10U14*Add 16|17s20
+11U14*Subtract 16|18s20
+12U14*Multiply 16|19s20
+13U14*Divide 16|20s20
+X 15 interfac.ads
+80M9*Unsigned_32
+83M9*Unsigned_64
+X 16 main.adb
+4U11*Main 4b11 21l5 21t9
+5I12 Int_Range{integer} 6r54
+6K12 Rand[7|44] 8r10 12r4 14r19 14r46 15r19 15r46
+8r4 Gen{7|50R9[6]} 12r16 14r32 14r59 15r32 15r59
+9r4 C1{14|3R9} 14m4 17r30 18r30 19r30 20r30
+10r4 C2{14|3R9} 15m4 17r34 18r34 19r34 20r34
+X 24 s-rannum.ads
+77V13*Random{15|80M9} 25|224i21
+78V13*Random{15|83M9} 25|224i21
+
