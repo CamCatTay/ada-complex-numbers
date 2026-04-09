@@ -1,8 +1,5 @@
 V "GNAT Lib v13"
 M P W=b
-A -gnatA
-A -mtune=generic
-A -march=x86-64
 P SS ZX
 
 RN
@@ -34,9 +31,9 @@ D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
 D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
 D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
 D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
-D complex_numbers.ads	20260409154650 1fc4f91a complex_numbers%s
+D complex_numbers.ads	20260409154522 1fc4f91a complex_numbers%s
 D interfac.ads		20240521074738 15f799c2 interfaces%s
-D main.adb		20260409155050 e710e02e main%b
+D main.adb		20260409154604 e710e02e main%b
 D system.ads		20240521074738 426dafb8 system%s
 D s-assert.ads		20240521074738 9c4520c7 system.assertions%s
 D s-casuti.ads		20240521074738 cf13d755 system.case_util%s
