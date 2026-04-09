@@ -5,7 +5,6 @@ package Complex_Numbers is
       Imag : Integer;
    end record;
 
-   --  Returns a string like "3+4i" or "3-4i"
    function Image (C : Complex) return String;
 
    procedure Add      (C1, C2 : Complex);
